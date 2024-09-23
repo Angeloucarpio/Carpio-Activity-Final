@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, sans-serif;
+    background-color: rgb(38, 192, 176);
+}
+
+form {
+    width: 50%; 
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 763px;
+    font-size: 23px;
+    font-family: fangsong;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 758px;
+    border: 2px solid #ccc;
+    border-radius: 14px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 1070px;
+    width: 113px;
+    height: 43px;
+    font-size: 17px;
+    margin-top: -87px;
+}
+
+input[type="submit"]:hover {
+	background-color: #124c14;
+    color: black;
+}
+img {
+    position: absolute;
+    top: 158px;
+    left: 55px;
+    border-radius: 16px;
+    width: 621px;
+    height: 653px;
+}
+#output {
+    margin-top: 28px;
+    margin-left: 753px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 680px;
+    height: 100px;
+    color: black;
+}
+#jsonOutput {
+    margin-top: 28px;
+    margin-left: 753px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 680px;
+    height: 100px;
+    color: black;
+}
